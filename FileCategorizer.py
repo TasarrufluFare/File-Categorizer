@@ -1,5 +1,4 @@
 import os
-import time
 
 
 def categorize_files(path):
@@ -76,24 +75,4 @@ while True:
         print("Operation Cancelled!")
 
 
-
-
-
-
-
-
-
-
-
-# old_names = jpg_file_list
-# print(old_names)
-# number_list = list(range(len(old_names)))
-# random.shuffle(number_list)
-# print(number_list)
-# item_count = 0
-# for item in old_names:
-#     old_file_name = item + ".jpg"
-#     new_file_name_with_ext = str(number_list[item_count]) + "_renamed_allRandom.jpg"
-#     os.rename(os.path.join(path, old_file_name), os.path.join(path, new_file_name_with_ext))
-#     item_count = item_count + 1
 
